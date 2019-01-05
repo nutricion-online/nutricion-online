@@ -1,0 +1,188 @@
+.charlasBody {
+  background: white;
+}
+
+.charlas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  min-height: auto !important;
+  width: 100%;
+  color: rgb(80, 80, 80);
+
+
+}
+
+.containerCharlas h2 {
+  color: black;
+}
+
+.containerCharlas h3 {
+  font-size: 1.5em;
+  font-weight: 400 !important;
+  margin: 2vh 0;
+}
+
+.containerCharlas {
+  width: 75%;
+  padding: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  p {
+    width: 100%;
+
+    text-align: center;
+
+  }
+}
+
+#charlasButton {
+  background: rgb(24, 23, 23);
+  border: none;
+  border-radius: 1px;
+  border-width: 0;
+  border-style: solid;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 5px 0;
+}
+
+// *************** Page
+
+// hr {
+// border: .5px solid grey;
+// width: 75%;
+// }
+
+.charlas-page {
+  padding: 10vh 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.charlas-page p {
+  font-size: 1.3em;
+  color: rgb(99, 99, 99);
+}
+
+.charlas-page h2 {
+  font-size: 2.3em;
+}
+
+.charlas-page h4 {
+  font-size: 1.4em;
+  color: rgb(99, 99, 99);
+}
+
+.containerCharlas-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCharlas-page p {
+  padding: 1vh 0;
+}
+
+.charlas-page ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 4vh 0 0 0;
+  padding: 2vh 1;
+}
+
+.charlas-page ul li {
+  margin: 5px 0;
+  padding: 10px 0;
+  width: 30%;
+  font-size: 1.3em;
+}
+
+// ******* Contact
+
+.contactCharlas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: auto !important;
+}
+
+.contactCharlas h2 {
+  font-size: 2.6em;
+}
+
+.contenido_contacto_charlas {
+  display: flex;
+  justify-content: center;
+}
+
+.contenido_contacto_charlas .formulario {
+  width: 85%;
+  padding: 40px;
+}
+
+.contenido_contacto_charlas .formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.contenido_contacto_charlas .formulario form input {
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contenido_contacto_charlas .formulario form input,
+.contenido_contacto_charlas .formulario form textarea {
+  // border: 2px solid rgb(61, 61, 61);
+  border: solid 2px lightcoral;
+  border-radius: 20px;
+  resize: none;
+  padding: 15px 25px;
+  margin: 5px;
+  font-size: 1.0em;
+  text-align: left;
+}
+
+.contenido_contacto_charlas .formulario form input.este_no,
+.contenido_contacto_charlas .formulario form textarea {
+  width: 100%;
+}
+
+.contenido_contacto_charlas .formulario form input[type="submit"]:hover {
+  background: white;
+  color: black;
+  box-shadow: inset 0 0 0 1px #3a7999;
+}
+
+.contenido_contacto_charlas .formulario button {
+  border-radius: 15px;
+  background: lightcoral;
+  color: white;
+  width: 40%;
+}
+ion-icon {
+  color: lightcoral;
+  font-size: 2.5em;
+}

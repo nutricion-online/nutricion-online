@@ -1,0 +1,6 @@
+#bs-example-navbar-collapse-1 ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

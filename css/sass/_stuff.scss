@@ -1,0 +1,97 @@
+// Variables
+
+$fondo2: linear-gradient(
+  135deg,
+  #ffffff 10%,
+  #ffc8ac 100%
+); // nuestra propuesta
+$fondo4: linear-gradient(135deg, #f3ffe4 10%, #fcfbe1 100%); // servicios
+$fondo3: linear-gradient(135deg, #fffedb 10%, #ffece4 100%); // nosotras
+$fondo1: linear-gradient(135deg, #ffffff 10%, #fcfbe1 100%); // Consejos
+html,
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Signika Negative', sans-serif; // font-family: 'Amaranth', sans-serif;
+  background: $fondo1;
+  text-align: center;
+}
+section {
+  min-height: 100vh;
+}
+p {
+  font-size: 1.3em;
+  width: 90%;
+  padding: 1vh 0;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  padding: 2vh 0 1vh 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.4em;
+  font-weight: 600;
+  color: rgb(94, 94, 94);
+}
+h3 {
+  padding: 1vh 0;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+h4 {
+  padding: 1vh 0;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+.ion-chevron-down {
+  text-shadow: 2px 3px 2px grey;
+}
+button {
+  background: #e3a070;
+  border: none;
+  border-radius: 12px;
+  border-width: 0;
+  border-style: solid;
+  transition: all 0.2s ease-in-out;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 4px 0;
+}
+button:hover {
+  background: white;
+  color: black;
+  box-shadow: inset 0 0 0 1px #3a7999;
+}
+.space {
+  height: 8vh;
+  width: 100%;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+.fa-angle-down {
+  font-size: 5.0em;
+  color: white;
+  text-shadow: 2px 3px 2px grey;
+}
+.i-black {
+  color: rgb(36, 36, 36) !important;
+}
+.fa-check {
+  font-size: 0.7em;
+  color: black;
+  text-shadow: 2px 3px 2px grey;
+}

@@ -1,0 +1,123 @@
+.servicios {
+  background: $fondo4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.servicios ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 3vh 0;
+}
+
+.servicios ul li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px 0;
+}
+
+.servicios ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servicios ul li h3 {
+  text-align: center;
+  color: lightcoral;
+  // text-shadow: 1px 1px 3px grey;
+}
+
+.servicios ul li div p {
+  margin: 2px;
+  text-align: center;
+}
+
+// SECTION CONSEJOS
+
+.adv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.adv li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1vh;
+  padding: 1vh 0;
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  z-index: 0;
+}
+
+.adv li h4 {
+  position: absolute;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  font-size: 1.9em;
+  font-weight: 700;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.fadeAdv {
+  color: rgb(53, 53, 53);
+  width: 70%;
+  padding: 3vh 10px;
+  // border: solid 2px lightcoral;
+  border-radius: 5px;
+}
+
+.adv div {
+  -webkit-filter: sepia(0.9);
+  -webkit-filter: blur(1px) sepia(0.6) opacity(0.9);
+  filter: blur(1px) sepia(0.6) opacity(0.9);
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+}
+
+.water {
+  background-image: url("../img/serv/water.jpg");
+  background-position: center top;
+}
+
+.fruit {
+  background-image: url("../img/serv/fruit.jpg");
+  background-position: center center;
+  margin-bottom: 1vh;
+}
+
+.vegetables {
+  background-image: url("../img/serv/vegetables.jpg");
+  background-position: center center;
+}
+
+.run {
+  background-image: url("../img/serv/run.jpg");
+  background-position: center bottom;
+}
+
+//

@@ -1,8 +1,4 @@
 $(document).ready(function() {
-  $(function() {
-    $(".lazy").Lazy();
-  });
-
   $("#clickWater").click(function() {
     $("#waterAdv").fadeToggle();
   });
